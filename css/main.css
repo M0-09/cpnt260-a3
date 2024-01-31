@@ -30,3 +30,39 @@ body {
   height: 85vh;
   opacity: 0.9;
  }
+
+ .card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15rem;
+ }
+
+ .button {
+  background-color: #5ecabe;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.8;
+ }
+
+  .button:hover {
+    background-color: #04AA6D; 
+    color: white;
+  }
+
+  /* makes the button look like it's being pressed */
+  /* box-shadow: 0 9px #999;
+  transition: 0.3s; */
+ 
+  footer {
+  display: flex;
+  justify-content: center;
+  height: 12vh;
+  /* background-color: rgb(234, 219, 165); */
+  border-style: double;
+  border-width: 10px;
+  margin: 2.5rem;
+  }
