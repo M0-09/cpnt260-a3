@@ -1,6 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); */
 
 h1 {
-  font-family: "Honk", sans-serif;
-  font-size: 72px;
-} */
+  /* font-family: "Honk", sans-serif; -CHANGE THIS */
+  font-size: 36px;
+
+  /* capitalizes first letter of every word */
+  text-transform:capitalize;
+}
+
+p {
+  font-size: 18px;
+  line-height: 0;
+  font-weight: 600;
+  /* max-width: 75ch; */
+}
