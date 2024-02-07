@@ -4,7 +4,7 @@
 
 # Author: Mo
 
-# GH Pages site:
+# GH Pages site: https://m0-09.github.io/cpnt260-a3/
 
 A helpful resource that helped you with this assignment: w3schools.com ; tutorialspoint.com
 Search term: add google fonts link to css file ; first letter caps in css
