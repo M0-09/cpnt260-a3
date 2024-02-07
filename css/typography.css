@@ -1,20 +1,27 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); */
-
-h1 {
-  /* font-family: "Honk", sans-serif; -CHANGE THIS */
-  font-size: 36px;
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+.hero {
+  font-family: "Protest Revolution", "Lato", sans-serif;
+  font-size: 50px;
 
   /* capitalizes first letter of every word */
-  text-transform:capitalize;
+  text-transform: capitalize;
+  max-width: 40ch;
+}
+.button {
+  font-weight: 600;
+}
+.tagline {
+  font-family: "Roboto", "Protest Revolution", sans-serif;
+
+  font-size: 30px;
+  font-weight: 600;
+  max-width: 40ch;
 }
 
 p {
-  font-size: 18px;
-  line-height: 0;
-  font-weight: 600;
-  /* max-width: 75ch; */
-}
-
-.button {
-font-weight: 600;
+  font-family: "Lato", "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
 }

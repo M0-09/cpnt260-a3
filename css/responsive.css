@@ -1,0 +1,20 @@
+@media screen and (max-width: 900px) {
+  .hero {
+    font-size: 30px;
+  }
+  .tagline {
+    font-size: 22px;
+  }
+  p {
+    font-size: 20px;
+  }
+  p,
+  .hero,
+  .tagline {
+    max-width: 28ch;
+  }
+  .card {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+}
